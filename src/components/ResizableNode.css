@@ -1,0 +1,11 @@
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+  right: 0;
+  background: url('data:image/svg+xml;utf8,<svg fill="%23333" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M0 20L20 0H15L0 15z"/></svg>')
+    no-repeat center center;
+  cursor: se-resize;
+  background-size: contain;
+}
